@@ -22,5 +22,7 @@ end
 def now_serving(line)
   if now_serving > 1
     puts "The line is empty."
+  else
+    puts "There is nobody waiting to be served!"
   end
 end
