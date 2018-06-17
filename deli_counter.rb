@@ -4,8 +4,8 @@ katz_deli = []
 def line(line)
   if line.size > 0
     message = "The line is currently: "
-    line.each_with_index do |customer, index+1|
-      message += "#{index}. #{customer}"
+    line.each_with_index do |customer, index|
+      message += "#{index+1}. #{customer}"
     end
     puts message
   else
