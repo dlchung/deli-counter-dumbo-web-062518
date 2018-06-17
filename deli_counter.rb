@@ -20,7 +20,7 @@ def take_a_number(katz_deli, customer)
 end
 
 def now_serving(katz_deli)
-  if katz_deli > 1
+  if katz_deli.size > 1
     puts "The line is empty."
   else
     puts "There is nobody waiting to be served!"
