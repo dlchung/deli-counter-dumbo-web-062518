@@ -13,7 +13,8 @@ def line(line)
   end
 end
 
-def take_a_number
+def take_a_number(line)
+  
 end
 
 def now_serving
