@@ -3,7 +3,9 @@ katz_deli = []
 
 def line(line)
   if line.size > 0
-    
+    message = "The line is currently: "
+    line.each_with_index do |customer, index|
+      
   else
     puts "The line is currently empty."
   end
