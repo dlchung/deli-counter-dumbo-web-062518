@@ -20,7 +20,7 @@ def take_a_number(line, customer)
 end
 
 def now_serving(line)
-  if now_serving < 1
+  if now_serving > 1
     puts "The line is empty."
   end
 end
