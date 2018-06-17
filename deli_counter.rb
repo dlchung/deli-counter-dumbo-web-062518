@@ -19,6 +19,9 @@ def take_a_number(line, customer)
   return new_line
 end
 
-def now_serving
+def now_serving(line)
+  if now_serving < 1
+    puts "The line is empty."
+  end
 end
 
