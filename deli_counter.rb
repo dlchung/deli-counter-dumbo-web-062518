@@ -13,8 +13,8 @@ def line(line)
   end
 end
 
-def take_a_number(line)
-  
+def take_a_number(line, customer)
+  new_line = line.push(customer)
 end
 
 def now_serving
