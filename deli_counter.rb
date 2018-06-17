@@ -1,10 +1,10 @@
 # Write your code here.
 katz_deli = []
 
-def line(line)
-  if line.size > 0
+def line(katz_deli)
+  if katz_deli.size > 0
     message = "The line is currently:"
-    line.each_with_index do |customer, index|
+    katz_deli.each_with_index do |customer, index|
       message += " #{index+1}. #{customer}"
     end
     puts message
@@ -13,8 +13,8 @@ def line(line)
   end
 end
 
-def take_a_number(line, customer)
-  new_line = line.push(customer)
+def take_a_number(katz_deli, customer)
+  new_line = katz_deli.push(customer)
   puts "Welcome, #{customer}. You are number #{new_line.size} in line."
   return new_line
 end
