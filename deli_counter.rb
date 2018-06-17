@@ -16,6 +16,7 @@ end
 def take_a_number(line, customer)
   new_line = line.push(customer)
   puts "Welcome, #{customer}. You are number #{new_line.size} in line."
+  return new_line
 end
 
 def now_serving
