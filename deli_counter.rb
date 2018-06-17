@@ -6,6 +6,7 @@ def line(line)
     message = "The line is currently: "
     line.each_with_index do |customer, index|
       message += "#{index}. #{customer}"
+    end
   else
     puts "The line is currently empty."
   end
